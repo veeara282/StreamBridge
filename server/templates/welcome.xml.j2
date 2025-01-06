@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+{% include "_preamble.xml.j2" %}
 <Response>
-  <Say>Welcome to StreamBridge. Now connecting you to the live audio from your PC.</Say>
+  <Say>Welcome to StreamBridge.</Say>
+  <Say>Now connecting you to the live audio from your PC.</Say>
+  <!-- Hewoooooo -->
   <Redirect method="POST">{{ hostname }}/play_stream</Redirect>
 </Response>
