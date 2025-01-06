@@ -21,3 +21,9 @@ Structure:
 - State stored across HTTPS/WebSocket sessions
 
 [mediastream]: https://www.twilio.com/docs/voice/media-streams
+
+## Legal disclaimer
+
+This application is believed not to infringe on any intellectual property rights (including copyrights and personality rights), because it is only being used for non-commercial, private performances of Twitch streams. Only authorized users will be able to dial in.
+
+The copyright to this software will be held by me personally and not my business.
