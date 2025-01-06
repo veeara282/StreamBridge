@@ -10,6 +10,14 @@ Key components:
 
 ### Server (`server/`)
 
+To run:
+
+```bash
+$ source <project_root>/env/bin/activate
+$ cd <project_root>/server
+$ flask run
+```
+
 Functionality:
 - Listens for incoming calls from the user (via Twilio webhooks)
 - Patches the user into the stream audio (using a [bidirectional Media Stream][mediastream])
